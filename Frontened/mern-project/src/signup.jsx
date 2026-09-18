@@ -23,7 +23,7 @@ export default function Signup() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:8080/auth/signin",
+        "https://mern-project-ten-lac.vercel.app/auth/signin",
         formData
       );
 
