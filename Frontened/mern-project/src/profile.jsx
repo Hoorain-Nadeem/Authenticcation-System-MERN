@@ -16,7 +16,7 @@ export default function Profile() {
       setLoading(true);
 
       const res = await axios.get(
-        "http://localhost:8080/auth/profile",
+        "https://mern-project-ten-lac.vercel.app/auth/profile",
         {
           withCredentials: true,
         }
@@ -41,7 +41,7 @@ export default function Profile() {
   const logout = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:8080/auth/logout",
+        "https://mern-project-ten-lac.vercel.app/auth/logout",
         {},
         {
           withCredentials: true,
