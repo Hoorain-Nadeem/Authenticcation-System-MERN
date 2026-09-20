@@ -7,7 +7,7 @@ const authRouter = require("./routes/authRoutes");
 app.use(express.json())
 app.use(
   cors({
-    origin: "https://authenticationsystem-sigma.vercel.app/",
+    origin: "https://authenticationsystem-sigma.vercel.app",
     credentials: true,
   })
 );
